@@ -10,9 +10,9 @@ function Home() {
     <>
       <Navbar />
       <Hero />
-      <Features />
-      <HowItWorks />
-      <CallToAction />
+      <section id="features"><Features /></section>
+      <section id="how-it-works"><HowItWorks /></section>
+      <section id="pricing"><CallToAction /></section> {/* or a separate Pricing component if needed */}
       <Footer />
     </>
   )
